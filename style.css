@@ -1,0 +1,105 @@
+body{
+    background: url(images/cover.jpg) center center no-repeat fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+/* ---style Nabvar--- */
+.dropdown-toggle:focus {
+    outline: none ;  /* !important */
+}
+.navbar{
+    background-color: rgba(65, 66, 66, 0.6);
+}
+.nav-item a{
+    font-family: monospace;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: whitesmoke;
+}
+.dropdown-menu .dropdown-item{
+    color: black
+}
+
+/* ----Jumbotron */
+.jumbotron{
+    color: #fff;
+    text-align: center;
+    margin: 80px;
+    padding: 10px;
+    height: 400px;
+}
+@font-face{
+    font-family: heathergreen;
+    src: url(images/Coco-Gothic-Bold-trial.ttf);
+}
+.jumbotron h1{
+    font-family: heathergreen, 'monospace';
+    font-size: 4.5em;
+    font-weight: 800;
+    margin-top: 100px;
+    letter-spacing: 2.5px;
+    box-shadow: black;
+}
+/* ---Images---- */
+.col-md-4{
+    text-align: center;
+    color: #fff;
+}
+
+.icons p{
+    font-size: 15px;
+    font-weight: 1000px;
+}
+.container{
+    max-width: 1500px;
+}
+.row{
+    background-color: rgba(0,0,0, 0.2);
+    width: auto;
+    padding: 30px;
+}
+/* ---Button----- */
+.contact{
+    text-align: center;
+    margin-top: 30px;
+    height: 200px;
+}
+.btn{
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 70px;
+    letter-spacing: 1.3px;
+}
+
+
+/* -----Footer---- */
+.footer{
+    background-color: rgba(0,0,0, 0.6);
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 10px 0;
+}
+.footer .container{
+    margin-left: 10px;
+}
+
+/* ------Media query for icon sizes in small screens----- */
+@media (max-width: 400px){
+    .bodyImage{
+        height: 70px;
+    }
+    .jumbotron h1{
+        font-size: 2.5em;
+    }
+
+}
+@media (max-width: 768px){
+    .bodyImage{
+        height: 70px;
+    }
+    .jumbotron h1{
+        font-size: 2.5em;
+    }
+}
